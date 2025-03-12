@@ -25,92 +25,75 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
 
+
 ## Programs for arithmetic  operations
-
-## Addition  of 8 bit numbers ALP 
-```assembly
-MOV AL,88H
-MOV BL,65H
-ADD AL,BL
-HLT
+## ADDITION,SUBRACTION,MULTIPLICATION AND DIVISION
 ```
-## Output  
-![image](https://github.com/user-attachments/assets/dd689e60-8c7d-4694-a122-bb8a1f6be256)
+ORG 100H
+  ;ADDITION
+MOV AX, 1234H  
+MOV BX, 5678H  
+ADD AX, BX  
+MOV [2000H], AX  
 
-
-## Subtraction  of 8 bit numbers  ALP 
-```assembly
-MOV AL,84H
-MOV BL,63H
-SUB AL,BL
-HLT
-``` 
-## Output 
-![image](https://github.com/user-attachments/assets/494369cb-a39a-4a12-bf9a-84e22eb3a089)
-
-## Multiplication of 8 bit numbers  ALP
-```assembly
-MOV AL,75H
-MOV BL,32H
-MUL BL
-HLT
-```
-## Output  
-![image](https://github.com/user-attachments/assets/0bf708d8-64f8-4b79-a522-9eb41728f7d8)
-
-
-## Division of 8 bit numbers  ALP
-```assembly
-MOV AL,68H
-MOV BL,18H
-DIV BL
-HLT
-```
-## Output  
-![image](https://github.com/user-attachments/assets/8da445b0-1cc5-4c34-8244-838ba94bfb68)
-
-
-## And of 8 bit numbers ALP
-```assembly
-MOV AL,33H
-MOV BL,44H
-AND AL,BL
-HLT
+ 
+  ;SUBRACTION
+MOV AX, 4689H   
+MOV BX, 5678H    
+SUB AX, BX       
+MOV [2004H], AX 
+  
+  ;MULTIPLICATION
+  
+MOV AX, 3H  
+MOV BX, 5H  
+MUL BX  
+MOV [2006H], AX  
+   
+   ;Division
+MOV AX, 8H  
+MOV BX, 3H  
+DIV BX  
+MOV [2008H], AX  
+                          
+HLT  
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/02cee2f8-2b59-4607-9ed9-59899cbc9f19)
+![image](https://github.com/user-attachments/assets/a27fdcf9-0fbd-4d95-aa1e-452d56646ee2)
 
-## OR of 8 bit numbers ALP
-```assembly
-MOV AL,45H
-MOV BL,66H
-OR AL,BL
-HLT
+
+## Programs for logical operations
+## AND,OR,NOT & XOR
+```
+ org 100h 
+ ;AND
+ MOV AX, 1234H  
+MOV BX, 5678H  
+AND AX, BX  
+MOV [2000H], AX
+         
+   ;OR      
+MOV AX, 561H    
+NOT AX 
+MOV [2004H], AX          
+         
+   ;NOT      
+MOV AX, 1234H  
+MOV BX, 5678H  
+OR AX, BX  
+MOV [2006H], AX 
+           
+    ;XOR       
+MOV AX, 1234H  
+MOV BX, 5678H  
+XOR AX, BX  
+MOV [2008H], AX       
+ret
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/82fb3ef5-8d2f-4e68-af40-e6e1492a126b)
 
+![image](https://github.com/user-attachments/assets/e13a4382-3b2d-4ee3-9680-6ed4f6dc84d6)
 
-## NOT of 8 bit number ALP
-```assembly
-MOV AL,65H
-NOT AL
-HLT
-```
-## Output
-![image](https://github.com/user-attachments/assets/cc08d5c5-0bd2-4b88-aea6-bf0470ab6f15)
-
-
-## XOR of 8 bit number ALP
-```assembly
-MOV AL,66H
-MOV BL,77H
-XOR AL,BL
-HLT
-```
-
-## Output
-![image](https://github.com/user-attachments/assets/5a2ae4f6-2797-48ff-8cfd-26f3956d7098)
 
 ## Result :
 
