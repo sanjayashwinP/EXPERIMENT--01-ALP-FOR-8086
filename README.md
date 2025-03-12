@@ -46,7 +46,7 @@ SUB AL,BL
 HLT
 ``` 
 ## Output 
-![SUBEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/fcb56b58-d90f-4cf2-850d-85c531d9862c)
+![image](https://github.com/user-attachments/assets/494369cb-a39a-4a12-bf9a-84e22eb3a089)
 
 ## Multiplication of 8 bit numbers  ALP
 ```assembly
