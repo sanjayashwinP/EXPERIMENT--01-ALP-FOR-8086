@@ -29,70 +29,68 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 ## ADDITION,SUBRACTION,MULTIPLICATION AND DIVISION
 ```
-ORG 100H
-  ;ADDITION
-MOV AX, 1234H  
-MOV BX, 5678H  
-ADD AX, BX  
-MOV [2000H], AX  
+org 100h
 
- 
-  ;SUBRACTION
-MOV AX, 4689H   
-MOV BX, 5678H    
-SUB AX, BX       
-MOV [2004H], AX 
-  
-  ;MULTIPLICATION
-  
-MOV AX, 3H  
-MOV BX, 5H  
-MUL BX  
-MOV [2006H], AX  
-   
-   ;Division
-MOV AX, 8H  
-MOV BX, 3H  
-DIV BX  
-MOV [2008H], AX  
-                          
-HLT  
+MOV AX,2345H
+MOV BX,1212H
+ADD AX,BX
+MOV [6000H],AX
+         
+MOV AX,[1000H]
+MOV BX,[1002H]
+SUB AX,BX
+MOV [6002H],AX       
+
+MOV BX,2222H
+MOV AX,BX
+MOV CX,11H
+MOV DX,CX
+MUL DX
+MOV [6004H],AX
+
+MOV BX,1007H
+MOV AX,[BX]
+MOV CX,05H
+DIV CX
+MOV [6006H],AX
+
+ret
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/a27fdcf9-0fbd-4d95-aa1e-452d56646ee2)
+!![image](https://github.com/user-attachments/assets/8898f033-bcc5-49e2-872d-95c0fb796725)
+
 
 
 ## Programs for logical operations
 ## AND,OR,NOT & XOR
 ```
- org 100h 
- ;AND
- MOV AX, 1234H  
-MOV BX, 5678H  
-AND AX, BX  
-MOV [2000H], AX
-         
-   ;OR      
-MOV AX, 561H    
-NOT AX 
-MOV [2004H], AX          
-         
-   ;NOT      
-MOV AX, 1234H  
-MOV BX, 5678H  
-OR AX, BX  
-MOV [2006H], AX 
-           
-    ;XOR       
-MOV AX, 1234H  
-MOV BX, 5678H  
-XOR AX, BX  
-MOV [2008H], AX       
+org 100h
+
+MOV AX,2F11H
+MOV BX,1125H
+AND AX,BX
+MOV [2000H],AX
+
+MOV AX,2F11H
+MOV BX,1125H
+OR AX,BX     
+MOV [2002H],AX
+
+MOV AX,2F11H
+NOT AX       
+MOV [2004H],AX
+
+MOV AX,2F11H
+MOV BX,1125H
+XOR AX,BX    
+MOV [2006H],AX
+
 ret
 ```
 ## Output
 
-![image](https://github.com/user-attachments/assets/e13a4382-3b2d-4ee3-9680-6ed4f6dc84d6)
+![image](https://github.com/user-attachments/assets/1ccc0af3-c1b9-4f80-a80d-deaece15be66)
+
 
 
 ## Result :
