@@ -1,7 +1,6 @@
 # EXPERIMENT 01 ALP FOR 8086
 ## Name : SANJAY ASHWIN P
 ## Reg no : 212223040181
- ## Date of experiment:10/3/2025
 ## Aim:
 To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required:
@@ -36,7 +35,8 @@ ADD AL,BL
 HLT
 ```
 ## Output  
- ![ADDEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/9b3a7e31-db56-4c0e-9b59-43fe21ab0371)
+![image](https://github.com/user-attachments/assets/dd689e60-8c7d-4694-a122-bb8a1f6be256)
+
 
 ## Subtraction  of 8 bit numbers  ALP 
 ```assembly
@@ -56,7 +56,8 @@ MUL BL
 HLT
 ```
 ## Output  
-![MULEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/d5f842ca-8113-4380-9948-2dd4089cb605)
+![image](https://github.com/user-attachments/assets/0bf708d8-64f8-4b79-a522-9eb41728f7d8)
+
 
 ## Division of 8 bit numbers  ALP
 ```assembly
@@ -66,7 +67,8 @@ DIV BL
 HLT
 ```
 ## Output  
-![DIV EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/b34c43fd-318d-4df8-995b-d4357456f886)
+![image](https://github.com/user-attachments/assets/8da445b0-1cc5-4c34-8244-838ba94bfb68)
+
 
 ## And of 8 bit numbers ALP
 ```assembly
@@ -76,7 +78,7 @@ AND AL,BL
 HLT
 ```
 ## Output
-![ANDEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/137f8c67-17d9-4cc2-8437-349d50e0a404)
+![image](https://github.com/user-attachments/assets/02cee2f8-2b59-4607-9ed9-59899cbc9f19)
 
 ## OR of 8 bit numbers ALP
 ```assembly
@@ -86,7 +88,8 @@ OR AL,BL
 HLT
 ```
 ## Output
-![OR EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/d9fce991-bce0-4c58-a77c-2de3216f302d)
+![image](https://github.com/user-attachments/assets/82fb3ef5-8d2f-4e68-af40-e6e1492a126b)
+
 
 ## NOT of 8 bit number ALP
 ```assembly
@@ -95,7 +98,8 @@ NOT AL
 HLT
 ```
 ## Output
-![NOT EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/a7efe90e-2100-4df5-8298-3516af3b7f65)
+![image](https://github.com/user-attachments/assets/cc08d5c5-0bd2-4b88-aea6-bf0470ab6f15)
+
 
 ## XOR of 8 bit number ALP
 ```assembly
@@ -106,7 +110,7 @@ HLT
 ```
 
 ## Output
-![XOREX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/838fcf0e-3db2-4d6c-a9b6-0607b839726d)
+![image](https://github.com/user-attachments/assets/5a2ae4f6-2797-48ff-8cfd-26f3956d7098)
 
 ## Result :
 
